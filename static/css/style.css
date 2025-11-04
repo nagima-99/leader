@@ -20,6 +20,9 @@ body {
   z-index: 100;
   border-bottom: 2px solid #999;
   backdrop-filter: blur(5px);
+  height: 70px;
+  background: url("../img/hero.jpg") no-repeat center top;
+  background-size: cover;
 }
 
 .header-content {
@@ -133,7 +136,10 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding: 100px 100px 0;
-  height: 883px;
+  height: 883px; /* 953 - 70 */
+  background: url("../img/hero.jpg") no-repeat center top;
+  background-size: cover;
+  background-position: center -70px; 
 }
 
 .hero-text {
@@ -168,7 +174,7 @@ body {
   display: flex;
   align-items: center;
   gap: 74px;
-  margin-top: 364px;
+  margin-top: 64px;
   flex-wrap: wrap;
 }
 
